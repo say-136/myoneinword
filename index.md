@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="login"><p class="logins">my one to is word</p></div>
-    <button class="btn">button</button>
+    <button class="btn">测试</button>
 <br />
    <div class="qq">  
        <div class="lgin"> </div>
