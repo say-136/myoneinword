@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>myword</title>
-    <link rel="stylesheet" href="/mytow.css">
+    <link rel="stylesheet" href="mytow.css">
 </head>
 <body>
     <div class="login"><p class="logins">my one to is word</p></div>
@@ -25,6 +25,6 @@
        </div>
    </div>
 
-    <script src="/mywor.js"></script>
+    <script src="mywor.js"></script>
 </body>
 </html>
