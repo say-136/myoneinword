@@ -5,173 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .head-1{
-         width: 654px;
-         height:700px;
-         background-color: BurlyWood;
-         border-radius: 20% 20% 80% 80%;
-        }
-    .say{
-        
-        background-color:wheat;
-        width: 250px;
-        height: 120px;
-        border-radius: 40% 70% 50% 70%;
-        position: relative;
-    }   
-    .mmbb{
-        width: 100px;
-        height: 100px;
-        background-color: skyblue;
-        border-radius: 50%;
-        margin: 0 auto;
-        position: absolute;
-        left: 75px;
-        top: 10px;
-    }
-    
-    .say-1{
-        width: 50px;
-        height: 50px;
-        background-color: yellowgreen;
-        border-radius: 50%;
-        position: absolute;
-        left: 25px;
-        top: 25px;
-    }
+       .container{
+           width: 200px;
+           height: 400px;
+           /* background-color: aqua; */
+           margin: 100px auto;
+           position: relative;
+           border-radius: 50%;
+           
 
-    .bwy{
-        
-        background-color:wheat;
-        width: 250px;
-        height: 120px;
-        border-radius: 70% 40% 70% 50%;
-        position: relative;
-        margin-left: 400px ;
-        margin-top: -122px ;
-    }   
-    .bbmm{
-        width: 100px;
-        height: 100px;
-        background-color: skyblue;
-        border-radius: 50%;
-        margin: 0 auto;
-        position: absolute;
-        left: 75px;
-        top: 10px;
-    }
-    
-    .bwy-1{
-        width: 50px;
-        height: 50px;
-        background-color: yellowgreen;
-        border-radius: 50%;
-        position: absolute;
-        left: 25px;
-        top: 25px;
-    }
-    .say-3{
-        width: 150px;
-        height: 400px;
-        background-color: wheat;
-        border-radius: 80% 80% 80% 80%;
-        position: absolute;
-        left: 250px;
-    }
-    .say-4{
-        width: 150px;
-        height: 100px;
-        background-color: wheat;
-        
-        position: absolute;
-        margin-top: 298px;
-    }
-    .right{
-        width: 100px;
-        height: 100px;
-        background-color: wheat;
-        border-radius: 80% 70% 10% 60%;
-        position: absolute;
-        right: 90px;
-    }
-    .left{
-        width: 100px;
-        height: 100px;
-        border-radius: 70%  80% 60% 10%;
-        background-color: wheat;
-        position: absolute;
-        left: 90px;
-    }
-    .say-5{
-        width: 250px;
-        height: 100px;
-        background-color: red;
-        position: absolute;
-        left: 200px;
-        top: 570px;
-        border-radius: 100% 100% 100% 100%;
-    }
-    .say-6{
-        width: 250px;
-        height: 5px;
-        background-color: blue;
-        position: absolute;
-        top: 43px;
-    }
-    .say-7{
-       position: absolute;
-       left: 75px;
-    }
-    .bb-1{
-       width: 40px;
-       height: 60px;
-       background-color:White;
-       float: left;
-       border-style: solid;
-    }
-    .bb-2{
-        width: 40px;
-       height: 60px;
-       background-color:White;
-       float: left;
-       border-style: solid;
+       }
+       .yinyang{
+           width: 200px;
+           height: 200px;
+           /* background-color: blue; */
+           position: absolute;
+           top: 25%;
+           left: 0;
+           border-radius: 50%;
+           overflow:hidden;
+           border: black 1px solid;
+           animation: lo 1s infinite linear;
+       }
+       @keyframes lo{
+           form{
+               transform-origin: 50% 50%;
+           }
+           to{
+               transform: rotate(360deg);
+           }
+       }
+       .yinyang-1{
+        width: 200px;
+           height: 100px;
+           background-color: white;
+           position: relative;
+       }
+       .yinyang-2{
+           width: 200px;
+           height: 100px;
+           background-color: black;
 
-    }
+       }
+       .yinyang-3{
+           width: 100px;
+           height: 100px;
+           background-color: black;
+           border-radius: 50%;
+           position: absolute;
+           top: 50px;
+           left: 0;
+       }
+       .yinyang-3:after{
+           content: "";
+           display: block;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: white;
+           position: relative;
+           top: 42px;
+           left: 42px;
+       }
+       .yinyang-4{
+           width: 100px;
+           height: 100px;
+           background-color: white;
+           border-radius: 50%;
+           position: absolute;
+           top: 50px;
+           left: 100px;
+       }
+        .yinyang-4:after{
+           content: "";
+           display: block;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: black;
+           position: relative;
+           top: 42px;
+           left: 42px;
+       }
+       .mbg{
+           width: 17 0px;
+           height: 100px;
+           margin: 50px auto;
+       }
+       .mbg h1{
+        text-align: center;
+
+       }
+       .mbg p{
+           text-align: center;
+       }
+
 
     </style>
 </head>
 <body>
-    <div class="head-1">
-        <div class="say">
-            <div class="mmbb">
-                <div class="say-1"></div>
+    <div class="mbg">
+        <h1>马氏太极拳</h1>
+        <p>代表人：马保国</p>
+    </div>
+    <div class="container">
+        <div class="yinyang">
+            <div class="yinyang-1">
+                <div class="yinyang-3"></div>
+            </div>
+            <div class="yinyang-2">
+                <div class="yinyang-4"></div>
             </div>
         </div>
-        <div class="bwy">
-                <div class="bbmm">
-                    <div class="bwy-1"></div>
-                </div>
-            </div>
-            <div class="say-3">
-                <div class="say-4">
-                    <div class="right"></div>
-                    <div class="left"></div>
-                </div>
-            </div>
-            <div class="say-5">
-                <div class="say-6">
-                    <div class="say-7">
-                        <div class="bb-1"></div>
-                        <div class="bb-2"></div>
-                    </div>
-                </div>
-            </div>
     </div>
 </body>
 </html>
